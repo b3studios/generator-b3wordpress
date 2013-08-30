@@ -1,5 +1,6 @@
 {
-  "name": "package",
-  "version": "0.0.0",
-  "dependencies": {}
+  "name": "<%= _.slugify(projectName) %>",
+  "version": "<%= projectVersion %>",
+  "description": "<%= projectDescription %>",
+  "private": true
 }

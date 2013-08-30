@@ -5,11 +5,12 @@
   "keywords": [
     "yeoman-generator"
   ],
+  "private": true,
   "homepage": "https://github.com/b3studios/generator-b3wordpress",
   "bugs": "https://github.com/b3studios/generator-b3wordpress/issues",
   "author": {
-    "name": "",
-    "email": "",
+    "name": "B3 Studios",
+    "email": "team@b3studios.co.uk",
     "url": "https://github.com/b3studios"
   },
   "main": "app/index.js",
@@ -24,7 +25,9 @@
     "yeoman-generator": "~0.13.0"
   },
   "devDependencies": {
-    "mocha": "~1.12.0"
+    "mocha": "~1.12.0",
+    "lodash": "~1.3.1",
+    "underscore.string": "~2.3.3"
   },
   "peerDependencies": {
     "yo": ">=1.0.0-rc.1"

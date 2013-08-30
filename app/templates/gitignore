@@ -1,0 +1,9 @@
+syntax: glob
+
+*~
+*.orig
+*.hg
+.DS_Store
+.sass-cache
+node_modules
+bower_components
